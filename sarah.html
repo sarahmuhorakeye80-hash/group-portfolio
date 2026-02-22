@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+.about {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.about h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.member {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 260px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.member:hover {
+    transform: translateY(-10px);
+}
+
+.member img {
+    width: 100%;
+    border-radius: 12px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.member h3 {
+    margin: 15px 0 5px;
+}
+
+.role {
+    color: #0077ff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 14px;
+    color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<section class="about">
+    <h1>About Us</h1>
+    <p>Meet our professional team behind the project</p>
+
+    <div class="team">
+
+        <div class="member">
+            <img src="alexis.jpg" alt="Alexis">
+            <h3>Alexis</h3>
+            <div class="role">Frontend Developer</div>
+            <div class="desc">
+                Designs and builds user-friendly website interfaces with modern technologies.
+            </div>
+        </div>
+
+        <div class="member">
+            <img src="aboud.jpg" alt="Aboud">
+            <h3>Aboud</h3>
+            <div class="role">Backend Developer</div>
+            <div class="desc">
+                Develops server-side logic, database systems, and application functionality.
+            </div>
+        </div>
+
+        <div class="member">
+            <img src="sarah.jpg" alt="Sarah">
+            <h3>Sarah</h3>
+            <div class="role">UI/UX Designer</div>
+            <div class="desc">
+                Creates attractive layouts, branding, and user experience design.
+            </div>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
